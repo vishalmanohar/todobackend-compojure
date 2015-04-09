@@ -6,7 +6,8 @@
                  [compojure "1.3.1"]
                  [ring/ring-core "1.3.2"]
                  [ring/ring-json "0.3.1"]
-                 [ring/ring-defaults "0.1.2"]]
+                 [ring/ring-defaults "0.1.2"]
+                 ]
   :plugins [[lein-ring "0.8.13"]]
   :ring {:handler todobackend.handler/app}
   :profiles
